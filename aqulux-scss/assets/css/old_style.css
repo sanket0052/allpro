@@ -1,0 +1,254 @@
+/* line 15, ../scss/_header.scss */
+.dropdown-menu {
+  border-radius: 0px;
+  padding: 0px;
+}
+
+/* line 20, ../scss/_header.scss */
+header {
+  margin-top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  /* line 23, ../scss/_header.scss */
+  header .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 767px) {
+  /* line 23, ../scss/_header.scss */
+  header .container {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 23, ../scss/_header.scss */
+  header .container {
+    padding: 0px 15px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 35, ../scss/_header.scss */
+  header .container, header .container-fluid {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 767px) {
+  /* line 35, ../scss/_header.scss */
+  header .container, header .container-fluid {
+    padding: 0px 15px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  /* line 35, ../scss/_header.scss */
+  header .container, header .container-fluid {
+    padding: 0px 15px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 50, ../scss/_header.scss */
+  .navigation a:focus {
+    outline: none;
+    outline: 0px;
+    outline-offset: 0px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) and (min-width: 767px) and (max-width: 1024px) {
+  /* line 56, ../scss/_header.scss */
+  .navigation .navbar-toggle {
+    display: block;
+    padding: 9px 10px;
+    margin-top: 8px;
+  }
+  /* line 62, ../scss/_header.scss */
+  .navigation .navbar-nav > li {
+    float: none;
+  }
+  /* line 66, ../scss/_header.scss */
+  .navigation .navbar-header {
+    float: none;
+  }
+  /* line 70, ../scss/_header.scss */
+  .navigation .collapse.in {
+    display: block !important;
+  }
+  /* line 74, ../scss/_header.scss */
+  .navigation .collapse {
+    display: none !important;
+  }
+  /* line 78, ../scss/_header.scss */
+  .navigation .navbar-nav {
+    float: none !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 82, ../scss/_header.scss */
+  .navigation .product-image {
+    display: none;
+  }
+  /* line 85, ../scss/_header.scss */
+  .navigation .main-menu {
+    margin: 0px -15px;
+  }
+  /* line 87, ../scss/_header.scss */
+  .navigation .main-menu i {
+    font-size: 25px;
+    margin-top: -5px;
+  }
+  /* line 91, ../scss/_header.scss */
+  .navigation .main-menu .dropdown-submenu > a:after {
+    display: block;
+    font-family: "FontAwesome";
+    content: "\f067";
+    font-size: 15px;
+    float: right;
+  }
+  /* line 99, ../scss/_header.scss */
+  .navigation .main-menu li > a, .navigation .main-menu ul.main-menu > li > a {
+    color: #818181;
+    background-color: #F1F1F1;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 17px 15px;
+    border-bottom: 1px solid #B4B4B4;
+    line-height: 18px;
+  }
+  /* line 105, ../scss/_header.scss */
+  .navigation .main-menu li.open > a:hover, .navigation .main-menu li.open > a:focus {
+    border-color: #B4B4B4;
+  }
+  /* line 108, ../scss/_header.scss */
+  .navigation .main-menu ul {
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) and (max-width: 767px) {
+  /* line 115, ../scss/_header.scss */
+  .navigation .main-menu .products-items {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 120, ../scss/_header.scss */
+  .navigation .products-items > ul li > a,
+  .navigation .products-items > ul li.single-products > a, .navigation .main-menu > li ul li > a,
+  .navigation .main-menu > li ul li.single-products > a {
+    border: none;
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #C5C5C1;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  /* line 127, ../scss/_header.scss */
+  .navigation .products-items > ul li.open > a:hover, .navigation .products-items > ul li.open > a, .navigation .main-menu > li ul li.open > a:hover, .navigation .main-menu > li ul li.open > a {
+    outline: 0px;
+    outline-offset: 0px;
+    background-color: #757572 !important;
+  }
+  /* line 132, ../scss/_header.scss */
+  .navigation .products-items > ul li > ul.dropdown-menu, .navigation .main-menu > li ul li > ul.dropdown-menu {
+    border-radius: 0px;
+    background-color: #51514f !important;
+    padding: 10px 0px !important;
+  }
+  /* line 137, ../scss/_header.scss */
+  .navigation .products-items > ul li > ul.dropdown-menu li > a, .navigation .main-menu > li ul li > ul.dropdown-menu li > a {
+    font-size: 16px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 148, ../scss/_header.scss */
+  .navigation .header-menu {
+    margin-top: 22px;
+  }
+  /* line 151, ../scss/_header.scss */
+  .navigation i {
+    display: none;
+  }
+  /* line 157, ../scss/_header.scss */
+  .navigation li.dropdown:hover, .navigation li.dropdown > a:hover, .navigation .dropdowm-menu {
+    transition-property: opacity;
+    transition: opacity 0.5s linear;
+    opacity: 1;
+    background-color: #f1f1f1;
+    color: #67767d;
+    visibility: visible;
+  }
+  /* line 165, ../scss/_header.scss */
+  .navigation .dropdown-menu {
+    display: inline-block;
+    text-align: center;
+    background-color: #EEE !important;
+    visibility: hidden;
+    position: absolute;
+    list-style-type: none;
+    border-radius: 0px;
+    border: 0px;
+    min-height: 50px !important;
+    box-shadow: none;
+    right: 0 !important;
+    left: 0 !important;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+  /* line 182, ../scss/_header.scss */
+  .navigation .dropdown-menu li {
+    float: right;
+    text-align: right;
+    display: inline;
+    padding: 0px;
+    text-transform: uppercase;
+  }
+  /* line 190, ../scss/_header.scss */
+  .navigation .main-menu {
+    margin-right: 0px;
+  }
+  /* line 194, ../scss/_header.scss */
+  .navigation .header-menu a {
+    color: #818181;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 20px;
+  }
+  /* line 198, ../scss/_header.scss */
+  .navigation .header-menu a:hover {
+    color: #67767D;
+    background-color: #F1F1F1;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+/* line 204, ../scss/_header.scss */
+.navigation .navbar-brand {
+  height: auto;
+  padding: 0px 15px;
+}
+
+/* line 210, ../scss/_header.scss */
+.navbar-button {
+  font-size: 31px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+/* line 215, ../scss/_header.scss */
+h1 {
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+/* line 3, ../scss/style.scss */
+.slider-container {
+  width: 100%;
+  background-image: url(../images/banner.jpg);
+}

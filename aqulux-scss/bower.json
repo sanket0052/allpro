@@ -1,0 +1,15 @@
+{
+  "name": "aqualux",
+  "description": "",
+  "main": "Gruntfile.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

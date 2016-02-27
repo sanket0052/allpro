@@ -1,0 +1,226 @@
+
+$xssmall:50px;
+$small:320px;
+$medium:767px;
+$large:1024px;
+$exlarge:1200px;
+
+$fontcolor:#818181;
+$background:#EEE;
+@import "header";
+
+.slider-container{
+	width:100%;
+	background-image:url(../images/banner.jpg);
+}
+.slider-container
+{
+	width:100%;
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #FFF;
+	.slider-heading
+	{
+		padding:20px 15px;
+		margin-top:70px; 
+	}
+	.slider-heading h1
+	{
+		line-height: 1.2em;
+		font-size:35px;
+		margin-bottom:0px;
+	}
+	.slider-heading h2
+	{
+		line-height: 1.2em;
+		margin-top: 10px;
+		font-size:18px;	
+	}
+	@media screen and (min-width: $large) and (max-width: $exlarge){
+		.container
+		{
+			width:100%;
+		}
+	}
+	@media screen and (min-width: $medium){
+		min-height: 730px;
+		.slider-heading
+		{
+			margin-top:335px; 
+		}
+		.slider-heading h1
+		{
+			font-size:50px;
+		}
+		.slider-heading h2
+		{
+			font-size:35px;	
+		}
+	}
+	
+}
+.feature-container{
+
+	background-color:#FFFFFF;
+	color:#1E1E1E;
+
+	@media screen and (max-width: $exlarge){
+		.container{
+			width:100% !important;
+		}
+	}
+
+	.feature-block
+	{
+		background-image: url('../images/feature-block.png');
+		background-size: contain;
+		background-position: right bottom;
+		background-repeat: no-repeat;
+
+		@media screen and (min-width: $xssmall){
+			min-height: 320px;
+			.feature-content
+			{
+				padding: 0px 20px;
+			}
+			.feature-content h1
+			{
+				font-size:30px;
+				margin-bottom:0px;
+			}
+			.feature-content h2
+			{
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			.feature-content p
+			{
+				font-size: 17px;
+				color:#808080;	
+				margin-top: 16px;
+				line-height: 1.3em;
+			}
+		}
+		@media screen and (min-width: $medium){
+			min-height: 480px;
+			.feature-content
+			{
+				margin-top: 60px;
+			}
+			.feature-content h1
+			{
+				font-size:50px;
+				margin-bottom:0px;
+			}
+			.feature-content h2
+			{
+				font-size: 35px;
+				margin-bottom: 10px;
+			}
+			.feature-content p
+			{
+				font-size: 17px;
+				margin-top: 16px;
+				line-height: 1.3em;
+			}
+		}
+	}
+}
+.product-container{
+	background-color: #F8F8F8;
+	margin-bottom: 20px;
+	.container{
+		@media only screen and (min-width:$medium) and (max-width:$exlarge){
+			width:100% !important;
+		}
+	}
+	.product-row
+	{
+		color: #979696;
+	}
+	.product
+	{
+		float:left;
+		margin-bottom: 30px;
+	}
+	.product6
+	{
+		@media screen and (min-width: $xssmall) and (max-width:$medium){
+			width:100%;
+			padding: 0px;
+		}
+		@media screen and (min-width: $medium) and (max-width:$large){
+			width:50%;
+			.single-product{
+				float:left;
+			}
+			&:nth-child(even) .single-product{
+				float:right;
+			}
+		}
+		.single-product{
+			@media screen and (min-width: $xssmall) and (max-width:$large){
+				margin: auto;
+				max-width: 370px;
+			}
+		}
+	}
+	.product12
+	{
+		@media screen and (min-width: $xssmall) and (max-width:$large){
+			padding: 0px 15px;
+			width:100%;
+		}
+	}
+	
+	.single-product{
+		background-color: $background;
+		/*max-height: 430px;*/
+	}
+	.product-title h3
+	{
+		font-size: 22px;
+		z-index: 1;
+		position: absolute;
+		text-transform: uppercase;
+		color:$fontcolor;
+		margin-top:15px; 
+		margin-left:10px;
+		@media screen and (min-width: $small) {
+			margin-left:15px;
+		}
+	}
+	.product-title a 
+	{
+		overflow: hidden;
+		img 
+		{
+			display: inline-block;
+			vertical-align: middle;
+			width:100%;
+			-webkit-transition: all 1s ease; /* Safari and Chrome */
+			-moz-transition: all 1s ease; /* Firefox */
+			-ms-transition: all 1s ease; /* IE 9 */
+			-o-transition: all 1s ease; /* Opera */
+			transition: all 1s ease;
+		}
+	}
+	.product-title a:hover img 
+	{
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		 transform:scale(1.25);
+	}
+	.product-description
+	{
+		font-size: 14px;
+		padding: 20px;
+		color:#979696;
+		background-color: #FFFFFF;
+	}
+}
+@import "footer";
